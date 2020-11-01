@@ -1,6 +1,6 @@
 #loading packages
-library(fitdistrplus)
-
+library(fitdistrplus) #for plot(ecdf)
+library(Rfast) #for floyd
 club_mat = as.matrix(club_ad)
 #sum of degrees
 sumDegreeNode = apply(club_mat, 1, sum)
