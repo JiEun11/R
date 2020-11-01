@@ -10,5 +10,3 @@ mean(sumDegreeNode)
 dfsumDegreeNode = as.data.frame(sumDegreeNode)
 #relative frequency
 rfreqDfSumDegreeNode <- sumDegreeNode/length(sumDegreeNode)
-
-
